@@ -1,0 +1,63 @@
+*{
+    font-family: poppins;
+    font-weight: 500;
+}
+
+li{
+    padding: 0 25px;
+
+}
+a{
+    text-transform: uppercase;
+}
+body{
+    background-color: #0093E9;
+background-image: linear-gradient(315deg, #0093E9 0%, #80D0C7 100%);
+
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    
+}
+.navbar{
+    box-shadow: 0 6px 6px -6px black;
+}
+/*hero*/
+.d-flex{
+    display: flex;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.d-flex>input{
+    width: 350px;
+    border: white 2px solid ;
+    background-color: transparent;
+    color: black;
+}
+
+
+.d-flex>input:focus{
+    width: 350px;
+
+    background-color: transparent;
+}
+
+
+
+
+.hero-text{
+    color: white;
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+
+}
+
+
