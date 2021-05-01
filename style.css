@@ -24,7 +24,7 @@ background-image: linear-gradient(315deg, #0093E9 0%, #80D0C7 100%);
 }
 
 /*navbar over*/
-.container-fluid, .dropdown-menu, .bg-light{
+.container-fluid, .dropdown-menu, .bg-light, .navbar-light{
     z-index: 1;
 }
 
