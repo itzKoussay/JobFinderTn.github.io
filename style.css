@@ -24,9 +24,10 @@ background-image: linear-gradient(315deg, #0093E9 0%, #80D0C7 100%);
 }
 
 /*navbar over*/
-.container-fluid{
+.container-fluid, .dropdown-menu, .bg-light{
     z-index: 1;
 }
+
 /*hero*/
 .d-flex{
     display: flex;
